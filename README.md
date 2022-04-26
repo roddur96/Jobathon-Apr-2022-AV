@@ -12,6 +12,7 @@ The main objective of the problem is to develop the machine learning approach to
 <h2>Approach</h2>
 
 <ul>i performed basic eda to understand when the spike starts. added a holiday indicator to take into account all weekends and major indian festivals as those days would show more demands</ul>
+<ul>used t test to find if all columns were relevant to demand or not </ul>
 <ul>I used linear regression , decision tree regressor, knn but xgboost and catboost gave me the best results </ul>
 <ul>used catboost with optuna to study hyperparameters </ul>
 <ul>removed year column </ul>
